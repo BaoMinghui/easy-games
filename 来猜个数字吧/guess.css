@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+  border: 1px black solid;
+  height: 400px;
+  width: 600px;
+}
+
+.figure {
+  display: inline-block;
+  text-align: center;
+  height: 170px;
+  width: 120px;
+  background-color: white;
+  border: 3px black solid;
+  margin-top: 50px;
+}
+
+.figure:first-child {
+  margin-right: 50px;
+}
+
+#start {
+  height: 50px;
+  width: 100px;
+  margin-top: 50px;
+}
+
+span {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.up_u,
+.up_d {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid #999;
+  width: 0;
+  height: 0;
+  margin-right: 15px;
+}
+
+.down_u,
+.down_d {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 30px solid #999;
+  width: 0;
+  height: 0;
+}
+
+.decade,
+.unit {
+  height: 80px;
+  width: 60px;
+  margin-top: 5px;
+  display: inline-block;
+  font-size: 100px;
+}
